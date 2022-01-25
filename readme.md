@@ -27,6 +27,6 @@ ou
 - Condicionais: `@if @else if @else`
 - Herança: `@extends`
 - Repetições: @for e @each 
-- Funções `ligthen() darken()``
+- Funções `ligthen() darken()`
 - Referencing `&:hover`
 - Fazer o arquivo ficar menor
