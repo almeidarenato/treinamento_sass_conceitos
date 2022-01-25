@@ -8,13 +8,13 @@ Permite Programar em CSS: Variáveis , Funções, Repetições , IF/Else
 ## Oque é 
 Syntactically Awesome StyleSheets
 Um pré processador CSS que irá dar poderes ao nossos estilos
-Compila Estrutura de código de .scss ou .sass para .css
+Compila Estrutura de código de `.scss` ou `.sass` para `.css`
 
 
 ## Como usar
-- Instalar o sass globalmente npm i -g sass
+- Instalar o sass globalmente `npm i -g sass`
 ou
-- Instalar extensão no VSCode live sass compiler
+- Instalar extensão no VSCode `live sass compiler` (necessário o live server instalado)
 
 ## Features 
 - Organizar arquivos/pastas
