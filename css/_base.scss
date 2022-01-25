@@ -1,0 +1,70 @@
+$text-color: orange; //variável
+
+@mixin box-shadow($color) {
+    box-shadow:3px 3px 4px 1px $color;
+}
+
+@mixin text-effect($val){
+    @if $val == danger {
+        color:red;
+    } @else if $val == alert{
+        color:yellow;
+    } @else {
+        color: blue;
+    }
+}
+
+body { 
+    background-color: rgb(103, 72, 241);
+    color:$text-color;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    @include box-shadow(rgba(0,0,0,0.6));
+    $text-color2:rgb(15, 247, 150);
+
+    p { //encadeamento
+        @include box-shadow(rgba(0,0,0,0.6));
+        color:$text-color2;
+        background-color:gray;
+        height: 300px;
+        width: 300px;
+        @include text-effect(danger);
+    }
+}
+.flex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container2 {
+    margin-top : 30px;
+    @extend .flex; //herança
+    flex-direction: column;
+    height: 100%;
+    @for $i from 1 to 6 { // é possível usar o through . Ele contaria até o ultimo (no caso até o 6)
+        .text-#{$i} {
+            font-size :15px * $i;
+        }
+    }
+}
+
+$colors: (color1:blue , color2:red, color3:yellow);
+
+@each $key, $color in $colors {
+    .#{$color}-text {color: darken($color,10);}
+}
+
+//referenciar - referencing
+
+p {
+    color: red;
+    cursor:pointer;
+    &:hover {
+        color:blue;
+    }
+}

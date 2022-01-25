@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  *  Removes outline from links and buttons
+  */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/*
+  * Remove List Styles
+  */
+ul, ol, li {
+  list-style: none;
+}
+
+body {
+  background-color: #6748f1;
+  color: orange;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  -webkit-box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.6);
+          box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+.container p {
+  -webkit-box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.6);
+          box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.6);
+  color: #0ff796;
+  background-color: gray;
+  height: 300px;
+  width: 300px;
+  color: red;
+}
+
+.flex, .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container2 {
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.container2 .text-1 {
+  font-size: 15px;
+}
+
+.container2 .text-2 {
+  font-size: 30px;
+}
+
+.container2 .text-3 {
+  font-size: 45px;
+}
+
+.container2 .text-4 {
+  font-size: 60px;
+}
+
+.container2 .text-5 {
+  font-size: 75px;
+}
+
+.blue-text {
+  color: #0000cc;
+}
+
+.red-text {
+  color: #cc0000;
+}
+
+.yellow-text {
+  color: #cccc00;
+}
+
+p {
+  color: red;
+  cursor: pointer;
+}
+
+p:hover {
+  color: blue;
+}
+/*# sourceMappingURL=main.css.map */

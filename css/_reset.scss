@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    border: 0;
+    padding:0;
+    box-sizing: border-box
+  }
+  
+  /*
+  *  Removes outline from links and buttons
+  */
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  /*
+  * Remove List Styles
+  */
+  ul,ol,li {
+      list-style: none;
+  }
