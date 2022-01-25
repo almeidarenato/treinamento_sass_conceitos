@@ -26,7 +26,7 @@ ou
 - Mixins: `@mixin @include`
 - Condicionais: `@if @else if @else`
 - Herança: `@extends`
-- Repetições: @for e @each 
+- Repetições: `@for e @each`
 - Funções `ligthen() darken()`
 - Referencing `&:hover`
 - Fazer o arquivo ficar menor
