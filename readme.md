@@ -29,4 +29,4 @@ ou
 - Repetições: `@for e @each`
 - Funções `ligthen() darken()`
 - Referencing `&:hover`
-- Fazer o arquivo ficar menor
+- Fazer o arquivo ficar menor - basta nas configurações da extensão Live Sass configurar o format para `compressed`
